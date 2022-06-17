@@ -177,8 +177,8 @@ infectious respiratory diseases such as COVID-19.
     [Identifying climate drivers of infectious disease dynamics: recent
     advances and challenges
     ahead](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2017.0901).
-    Proceedings of the Royal Society B: Biological Sciences,
-    284(1860), 20170901.
+    Proceedings of the Royal Society B: Biological Sciences, 284(1860),
+    20170901.
 
 *Review Papers*
 
@@ -225,9 +225,9 @@ infectious respiratory diseases such as COVID-19.
 
 *Review Papers*
 
--   Nsoesie, E. O., Brownstein, J. S., Ramakrishnan, N., & Marathe, M.
-    V. (2014). [A Systematic Review of Studies on Forecasting the
-    Dynamics of Influenza
+-   Nsoesie, E. O., Brownstein, J. S., Ramakrishnan, N., &
+    Marathe, M. V. (2014). [A Systematic Review of Studies on
+    Forecasting the Dynamics of Influenza
     Outbreaks](http://onlinelibrary.wiley.com/doi/10.1111/irv.12226/full).
     Influenza and other respiratory viruses, 8(3), 309-316.
 -   [x] Chretien, J. P., George, D., Shaman, J., Chitale, R. A., &
@@ -384,15 +384,14 @@ infectious respiratory diseases such as COVID-19.
     Dynamic Models in Epidemiology. Currently, the R package
     **EpiDynamics** implements the computer programs written in other
     programming languages and available in [the web page of the
-    book](http://www.modelinginfectiousdiseases.org/) written by
-    [Keeling & Rohani](#ref-Keeling-Rohani:2008)
-    ([2008](#ref-Keeling-Rohani:2008)). Python Programs for this book
-    can also be found
+    book](http://www.modelinginfectiousdiseases.org/) written by Keeling
+    & Rohani ([2008](#ref-Keeling-Rohani:2008)). Python Programs for
+    this book can also be found
     [here](http://wiki.deductivethinking.com/wiki/Python_Programs_for_Modelling_Infectious_Diseases_book).
 -   [epidemics](https://github.com/ensoesie/epidemics): An R package to
     define seasonal influenza epidemic onset and duration.
 -   [epimdr](https://cran.r-project.org/web/packages/epimdr/index.html):
-    Functions and Data for “Epidemics: Models and Data in R.”
+    Functions and Data for “Epidemics: Models and Data in R”.
 -   [EpiModel](https://cran.r-project.org/web/packages/EpiModel/index.html):
     Mathematical Modeling of Infectious Disease.
 -   [EpiNow2](https://cran.r-project.org/web/packages/EpiNow2/index.html):
@@ -403,30 +402,27 @@ infectious respiratory diseases such as COVID-19.
     for two-way and multi-way contingency tables.
 -   [epinet](https://cran.r-project.org/web/packages/epinet/index.html):
     An R package to analyze epidemics spread across contact networks.
-    Details are described in [Groendyke &
-    Welch](#ref-Groendyke-Welch:2018)
+    Details are described in Groendyke & Welch
     ([2018](#ref-Groendyke-Welch:2018)).
 -   [fitR](https://cran.r-project.org/web/packages/mem/): Provides
     functions for model fitting and inference.
 -   [mem](https://cran.r-project.org/web/packages/mem/index.html): The
     Moving Epidemic Method, created by Tomás Vega and José E. Lozano
-    (see details in [Vega et al.](#ref-Vega-etal:2013)
-    ([2013](#ref-Vega-etal:2013)) and [Vega et al.](#ref-Vega-etal:2015)
-    ([2015](#ref-Vega-etal:2015))), allows the weekly assessment of the
-    epidemic and intensity status to help in routine respiratory
+    (see details in Vega et al. ([2013](#ref-Vega-etal:2013)) and Vega
+    et al. ([2015](#ref-Vega-etal:2015))), allows the weekly assessment
+    of the epidemic and intensity status to help in routine respiratory
     infections surveillance in health systems.
 -   [R0](https://cran.r-project.org/web/packages/R0/index.html):
     Estimation of R0 and Real-Time Reproduction Number from Epidemics.
-    Details are described in [Obadia et al.](#ref-Obadia-etal:2012)
+    Details are described in Obadia et al.
     ([2012](#ref-Obadia-etal:2012)).
 -   [socialmixr](https://cran.r-project.org/web/packages/socialmixr/index.html):
     Provides methods for sampling contact matrices from diary data for
-    use in infectious disease modelling, as discussed in [Mossong et
-    al.](#ref-Mossong-etal:2008) ([2008](#ref-Mossong-etal:2008)).
+    use in infectious disease modelling, as discussed in Mossong et al.
+    ([2008](#ref-Mossong-etal:2008)).
 -   [tsiR](https://cran.r-project.org/web/packages/tsiR/index.html): An
     implementation of the time-series Susceptible-Infected-Recovered
-    (TSIR) model described by [Finkenstädt &
-    Grenfell](#ref-Finkenstaedt-Grenfell:2000)
+    (TSIR) model described by Finkenstädt & Grenfell
     ([2000](#ref-Finkenstaedt-Grenfell:2000)) using a number of
     different fitting options for infectious disease time series data.
 -   [tycho2](https://github.com/allopole/tycho2): R interface to
@@ -650,8 +646,8 @@ infectious respiratory diseases such as COVID-19.
     -   Chinese: 感染期
 
 The relationship of periods: latent, incubation, and infectious in the
-SEIR model is illustrated in Figure 1 of [Milwid et
-al.](#ref-Milwid-etal:2016) ([2016](#ref-Milwid-etal:2016)).
+SEIR model is illustrated in Figure 1 of Milwid et al.
+([2016](#ref-Milwid-etal:2016)).
 
 ![](fig/periods-SEIR.png)
 
@@ -707,86 +703,87 @@ al.](#ref-Milwid-etal:2016) ([2016](#ref-Milwid-etal:2016)).
         2005](#ref-Altman-etal:2005)).
     -   Chinese: 续发率
 -   **Basic reproduction/reproductive number/ratio**
-    -   Symbol: ![R\_0](https://latex.codecogs.com/png.latex?R_0 "R_0")
+    -   Symbol:
+        ![R_0](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;R_0 "R_0")
     -   Definition: the expected number of secondary cases produced by a
         typical primary case in an **entirely susceptible population**
         ([Wallinga & Teunis, 2004](#ref-Wallinga-Teunis:2004)).
     -   Chinese: 基本再生数
 -   **Effective reproduction/reproductive number/ratio**
-    -   Symbol: ![R\_t](https://latex.codecogs.com/png.latex?R_t "R_t")
+    -   Symbol:
+        ![R_t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;R_t "R_t")
     -   [Definition](http://www.healthknowledge.org.uk/public-health-textbook/research-methods/1a-epidemiology/epidemic-theory):
         A population will rarely be totally susceptible to an infection
         in the real world. The effective reproductive number estimates
         the average number of secondary cases per infectious case at
-        time ![t](https://latex.codecogs.com/png.latex?t "t") in a
-        population made up of both susceptible and non-susceptible
+        time
+        ![t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;t "t")
+        in a population made up of both susceptible and non-susceptible
         hosts.
     -   Chinese: 有效再生数
-    -   Remark: [Wallinga & Teunis](#ref-Wallinga-Teunis:2004)
-        ([2004](#ref-Wallinga-Teunis:2004)) proposed a method that is
-        generic and requires only case incidence data and the
-        distribution of the serial interval to estimate effective
-        reproduction number over the course of an epidemic. However, the
-        approach has several drawbacks. First, estimates are **right
-        censored**, because the estimate of
-        ![R](https://latex.codecogs.com/png.latex?R "R") at time
-        ![t](https://latex.codecogs.com/png.latex?t "t") requires
-        incidence data from times later than
-        ![t](https://latex.codecogs.com/png.latex?t "t"). Approaches to
-        correct for this issue have been developed by [Cauchemez et
-        al.](#ref-Cauchemez-etal:2006)
-        ([2006](#ref-Cauchemez-etal:2006)). Furthermore, when the data
-        aggregation time step is small (e.g., daily data), estimates of
-        ![R](https://latex.codecogs.com/png.latex?R "R") can vary
-        considerably over short time periods., producting substantial
-        negative autocorrelation. For more details we refer the reader
-        to [Cori et al.](#ref-Cori-etal:2013)
-        ([2013](#ref-Cori-etal:2013)).
+    -   Remark: Wallinga & Teunis ([2004](#ref-Wallinga-Teunis:2004))
+        proposed a method that is generic and requires only case
+        incidence data and the distribution of the serial interval to
+        estimate effective reproduction number over the course of an
+        epidemic. However, the approach has several drawbacks. First,
+        estimates are **right censored**, because the estimate of
+        ![R](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;R "R")
+        at time
+        ![t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;t "t")
+        requires incidence data from times later than
+        ![t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;t "t").
+        Approaches to correct for this issue have been developed by
+        Cauchemez et al. ([2006](#ref-Cauchemez-etal:2006)).
+        Furthermore, when the data aggregation time step is small (e.g.,
+        daily data), estimates of
+        ![R](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;R "R")
+        can vary considerably over short time periods., producting
+        substantial negative autocorrelation. For more details we refer
+        the reader to Cori et al. ([2013](#ref-Cori-etal:2013)).
 -   **Case reproduction number**
     -   Definition: The case reproduction number is a property of
         individuals infected at time
-        ![t](https://latex.codecogs.com/png.latex?t "t"), and is the
-        average number of people someone infected at time t can expect
-        to infect. It is sometimes called the **cohort reproduction
-        number** because it counts the average number of secondary
-        transmissions caused by a cohort infected at time step
-        ![t](https://latex.codecogs.com/png.latex?t "t") ([Fraser,
-        2007](#ref-Fraser:2007); [Cori et al.,
+        ![t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;t "t"),
+        and is the average number of people someone infected at time t
+        can expect to infect. It is sometimes called the **cohort
+        reproduction number** because it counts the average number of
+        secondary transmissions caused by a cohort infected at time step
+        ![t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;t "t")
+        ([Fraser, 2007](#ref-Fraser:2007); [Cori et al.,
         2013](#ref-Cori-etal:2013)).
     -   Chinese: 病例再生数
     -   Remark: The case reproduction number is denoted
-        ![R\_c(t)](https://latex.codecogs.com/png.latex?R_c%28t%29 "R_c(t)")
-        in [Fraser](#ref-Fraser:2007) ([2007](#ref-Fraser:2007)) while
-        ![R^c(t)](https://latex.codecogs.com/png.latex?R%5Ec%28t%29 "R^c(t)")
-        in [Cori et al.](#ref-Cori-etal:2013)
-        ([2013](#ref-Cori-etal:2013)). Essentially, It is the widely
-        used effective reproduction number. The case reproduction number
-        is the quantity estimated in the Wallinga and Teunis-type
-        approaches.
+        ![R_c(t)](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;R_c%28t%29 "R_c(t)")
+        in Fraser ([2007](#ref-Fraser:2007)) while
+        ![R^c(t)](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;R%5Ec%28t%29 "R^c(t)")
+        in Cori et al. ([2013](#ref-Cori-etal:2013)). Essentially, It is
+        the widely used effective reproduction number. The case
+        reproduction number is the quantity estimated in the Wallinga
+        and Teunis-type approaches.
 -   **Instantaneous reproduction number**
     -   Definition: The instantaneous reproduction number is a property
         of epidemic at time
-        ![t](https://latex.codecogs.com/png.latex?t "t"), and is the
-        average number of people someone infected at time
-        ![t](https://latex.codecogs.com/png.latex?t "t") could expect to
-        infect should the condition remain unchanged ([Fraser,
-        2007](#ref-Fraser:2007); [Cori et al.,
+        ![t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;t "t"),
+        and is the average number of people someone infected at time
+        ![t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;t "t")
+        could expect to infect should the condition remain unchanged
+        ([Fraser, 2007](#ref-Fraser:2007); [Cori et al.,
         2013](#ref-Cori-etal:2013)).
     -   Chinese: 瞬时再生数
-    -   Remark: In both [Fraser](#ref-Fraser:2007)
-        ([2007](#ref-Fraser:2007)) and [Cori et
-        al.](#ref-Cori-etal:2013) ([2013](#ref-Cori-etal:2013)), the
-        instantaneous reproduction number is denoted
-        ![R(t)](https://latex.codecogs.com/png.latex?R%28t%29 "R(t)"),
+    -   Remark: In both Fraser ([2007](#ref-Fraser:2007)) and Cori et
+        al. ([2013](#ref-Cori-etal:2013)), the instantaneous
+        reproduction number is denoted
+        ![R(t)](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;R%28t%29 "R(t)"),
         which is usually used as the notation for effective reproduction
         number. The instantaneous reproduction number is the only
         repproduction number easily estimated in real time. Moreover,
         effective control measures undertaken at time
-        ![t](https://latex.codecogs.com/png.latex?t "t") are expected to
-        result in a sudden decrease in the instantaneous reproduction
-        number and a smoother decrease in the case reproduction number.
-        Hence, assessing the efficiency of control measures is easier by
-        using estimates of the instantaneous reproduction number.
+        ![t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;t "t")
+        are expected to result in a sudden decrease in the instantaneous
+        reproduction number and a smoother decrease in the case
+        reproduction number. Hence, assessing the efficiency of control
+        measures is easier by using estimates of the instantaneous
+        reproduction number.
 -   **Household reproduction number**
     -   Definition: The household reproduction number is defined as the
         number of households infected by each infected household
@@ -813,11 +810,13 @@ al.](#ref-Milwid-etal:2016) ([2016](#ref-Milwid-etal:2016)).
         individuals who are not immune.
     -   Chinese: 人群免疫力
 -   **Herd immunity threshold, Eradication fraction**
-    -   Symbol: ![S\_h](https://latex.codecogs.com/png.latex?S_h "S_h")
+    -   Symbol:
+        ![S_h](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;S_h "S_h")
     -   Definition: Under a compartmental framwork with homogenous
         mixing, the minimum fraction of susceptibles that must be immune
         (or vaccinated at birth (assuming 100% vaccine efficacy)) to
-        reduce ![R\_t](https://latex.codecogs.com/png.latex?R_t "R_t")
+        reduce
+        ![R_t](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;R_t "R_t")
         below 1 and eradicate infection; that is, by the removal of
         susceptible hosts ([Mishra et al.,
         2010](#ref-Mishra-etal:2010)).
@@ -925,7 +924,7 @@ during epidemics. *American Journal of Epidemiology*, *178*(9),
 
 European Centre for Disease Prevention and Control (ECDC). (2012).
 *Field epidemiology manual*. Retrieved from
-<https://wiki.ecdc.europa.eu/fem/Pages/Incubation%20period,%20Latent%20period%20and%20Generation%20time..aspx>
+[https://wiki.ecdc.europa.eu/fem/Pages/Incubation\\%20period,\\%20Latent\\%20period\\%20and\\%20Generation\\%20time..aspx](https://wiki.ecdc.europa.eu/fem/Pages/Incubation\%20period,\%20Latent\%20period\%20and\%20Generation\%20time..aspx)
 
 </div>
 
